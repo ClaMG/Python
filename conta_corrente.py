@@ -10,7 +10,7 @@ class conta_bancaria:
             return("O valor excede o limite da conta.")
         else:
             sacar = saldo - valor_saque
-            return("Olá", nome, "você sacou", valor_saque, "reais. O saldo atual da sua conta é", sacar, "reais")
+            return('Olá', nome, 'você sacou', valor_saque, 'reais. O saldo atual da sua conta é', sacar, 'reais')
     
     def acao(self):
         nome = input("Digite o seu nome: ")
