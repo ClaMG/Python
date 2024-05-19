@@ -8,4 +8,3 @@ class pessoa:
         
 humano = pessoa(nome= input("Qual seu nome: "), idade=int(input("Qual sua idade: ")), email=input("Qual seu email: "))
 humano.saudacao()
-
