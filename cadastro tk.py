@@ -21,9 +21,7 @@ def calcular():
     n = (entrada_nome.get())
     a = int(entrada_idade.get())
     i = 2024 - a
-    info = 'Ola', n , ', Você tem ', i , ' anos'
-    
-    lb_infos.config(text=info)
+    lb_infos.config(text= ('Ola ', n , ', Você tem ', i , ' anos')) #Arrumar(Fica aparecendo chaves no lugar das aspas)
 
 button = tk.Button(janela, text="Enter", width=15, bg="lightblue", fg="navy", command=calcular)
 button.pack()
